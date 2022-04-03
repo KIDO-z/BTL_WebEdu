@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header */
+
+.header-top {
+  box-shadow: 0px 0px 4px rgb(0 0 0 / 20%);
+  position: fixed;
+  width: 100%;
+  z-index: 9999999;
+}
+
+.header-top .logo img {
+  height: 30px;
+  width: 172px;
+}
+
+.align-items-center {
+  line-height: 70px;
+}
+
+.header-top .main-menu ul li a {
+  font-size: 16px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+}
+
+.header-top .main-menu ul li a:hover {
+  color: #ed3600;
+}
+
+.header-top .menu-right {
+  display: inline;
+}
+
+.header-top .menu-right a {
+  padding: 0;
+  padding-right: 15px;
+  font-size: 20px;
+}
+
+.back-ul {
+  background-color: #fff;
+  width: 200px;
+  height: 100px;
+  position: absolute;
+  border-bottom: 2px solid #ff5421;
+  line-height: 2;
+  display: none;
+}
+
+.back-ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.header-top .main-menu ul li:hover ul.back-ul {
+  display: block;
+}
+
+/* Footer */
+
+.newletter {
+  margin-top: 100px;
+  font-family: "Rubik", sans-serif;
+}
+
+.newletter .newletter-wrap {
+  background: #171f32;
+  border-radius: 5px;
+}
+
+.newletter .newletter-wrap .middle {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.newletter .newletter-wrap .content-part {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.newletter .newletter-wrap .content-part .content-part-icon img {
+  max-width: 50px;
+  margin-right: 20px;
+}
+
+.newletter .newletter-wrap .content-part .content-part-title {
+  color: #fff;
+  font-size: 30px;
+}
+
+.newletter .newletter-wrap .newletter-form {
+  position: relative;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.newletter .newletter-wrap .newletter-form input {
+  background: #fff;
+  color: #505050;
+  padding: 17px 150px 17px 30px;
+}
+.newletter .newletter-wrap .newletter-form button {
+  background: #ff5421;
+  right: 0;
+  top: 0;
+  color: #fff;
+  padding: 17px 30px 19px 20px;
+}
+
+.footer-home {
+  background: #151515;
+  font-family: "Rubik", sans-serif;
+}
+
+.footer-home .footer-top {
+  padding: 50px 0 90px;
+}
+
+.footer-home .footer-top .footer-top-logo a img {
+  max-width: 190px;
+  margin-bottom: 30px;
+}
+
+.footer-home .footer-top .footer-top-text p {
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.footer-home .footer-top .footer-top-social li {
+  display: inline-block;
+  margin-right: 6px;
+  color: #fff;
+}
+
+.footer-home .footer-top .footer-top-social li a {
+  color: #fff;
+  width: auto;
+  height: auto;
+  line-height: 16px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.footer-home .footer-top .wedget-title {
+  color: #fff;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 35px;
+  position: relative;
+  border-bottom: 1px solid #ff5421;
+}
+
+.footer-home .footer-top .wedget-address li {
+  position: relative;
+  margin-bottom: 16px;
+}
+
+.footer-home .footer-top .wedget-address li i,
+.footer-home .footer-top .site-map li i {
+  color: #ff5421;
+  position: absolute;
+}
+
+.footer-home .footer-top .wedget-address li .desc {
+  padding-left: 35px;
+  color: #fff;
+}
+
+.footer-home .footer-top .site-map li {
+  padding-left: 15px;
+  position: relative;
+  margin-bottom: 11px;
+}
+
+.footer-home .footer-top .site-map li a {
+  text-decoration: none;
+  color: #fff;
+  padding-left: 30px;
+}
+
+.footer-home .footer-top .recent-post {
+  margin-top: 10px;
+}
+
+.footer-home .footer-top .recent-post .post-img {
+  float: left;
+  padding-right: 10px;
+}
+
+.footer-home .footer-top .recent-post .post-img img {
+  width: 60px;
+  border-radius: 4px;
+}
+
+.footer-home .footer-top .recent-post .post-item .post-desc a {
+  font-size: 14px;
+  color: #fff;
+  font-weight: 400;
+  line-height: 22px;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+.footer-home .footer-top .recent-post .post-item .post-date {
+  font-size: 13px;
+  color: #fff;
+  font-weight: 400;
+}
+
+.footer-home .footer-top .recent-post .post-item .post-date i {
+  font-size: 13px;
+  color: #ff5421;
+  padding-right: 5px;
+}
+
+.footer-bottom {
+  border-top: 1px solid #fff;
+  padding: 20px;
+}
+
+.footer-home .footer-bottom .copyright p {
+  margin-bottom: 0;
+  color: #f3f8f9;
+}
