@@ -5,7 +5,7 @@
 }
 
 .contents {
-  background-image: url(../img/background-1.jpg);
+  background-image: url(../img/h+f/background-1.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -324,7 +324,7 @@
 
 .pati-main-home {
   position: relative;
-  background: url(../img/parti-1.jpg);
+  background: url(../img/h+f/parti-1.jpg);
   margin-top: 90px;
   background-size: cover;
 }
@@ -419,7 +419,7 @@
 
 /* Contents Five */
 .content-five {
-  background-image: url(../img/main-home.jpg);
+  background-image: url(../img/h+f/main-home.jpg);
   background-position: cover;
   background-repeat: no-repeat;
   margin-top: 80px;
