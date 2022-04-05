@@ -1,0 +1,52 @@
+@media screen and (max-width: 768px) {
+    .w-18rem{
+        width: auto;
+    }
+    .w-20rem{
+        width: auto;
+    }
+    .h-11rem{
+        height: 11rem;
+    }
+}
+.blog-btn{
+    text-decoration: none;
+    color: #000000;
+}
+@keyframes transferXR{
+    from{
+        margin-right: 0;
+    }
+    to{
+        margin-right: 4px;
+    }
+}
+@keyframes transferXL{
+    from{
+        margin-left: 7px;
+    }
+    to{
+        margin-left: 11px;
+    }
+}
+.fa-arrow-right-long{
+    margin-left: 7px;
+}
+.blog-btn:hover{
+    color: #ff5421;
+}
+.blog-btn p:hover{
+    animation: transferXR linear 0.2s;
+    margin-right: 4px;
+}
+.fa-arrow-right-long:hover{
+    animation: transferXL linear 0.2s;
+    margin-left: 11px;
+}
+.blog-post{
+    font-size: 16px;
+}
+a:hover{
+    color: #ff5421;
+    transition: 0.3s;
+}
