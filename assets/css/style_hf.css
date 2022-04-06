@@ -103,6 +103,7 @@ body {
   align-items: center;
   display: flex;
   flex-wrap: wrap;
+  height: 150px;
 }
 
 .newletter .newletter-wrap .content-part {
