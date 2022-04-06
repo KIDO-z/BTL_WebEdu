@@ -1,0 +1,21 @@
+.card-text:hover{
+    color: #ff5421;
+    transition: 0.3s;
+}
+.shop-item a:hover{
+    color: #ff5421;
+}
+i{
+    right: 6px;
+    bottom: 150px;
+    transition: 0.4s;
+    opacity: 0;
+}
+.card-shop:hover .shop-item i{
+    opacity: 1;
+    visibility: visible !important;
+    bottom: 0px;
+}
+
+
+

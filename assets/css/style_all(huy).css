@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap');
 
 .fs-8{
     font-size: 13px;
@@ -20,13 +20,7 @@
 .rubik-font{
     font-family: 'Rubik', sans-serif;
 }
-.w-18rem{
-    width: 18rem;
-}
 .h-11rem{
-}
-.w-20rem{
-    width: 21rem;
 }
 .main-color{
     color: #ff5421;
@@ -44,6 +38,11 @@ a{
 }
 li{
     list-style: none;
+}
+@media screen and (max-width: 768px) {
+    .h-11rem{
+        height: 11rem;
+    }
 }
 
 
