@@ -5,7 +5,7 @@
 }
 
 .contents {
-  background-image: url(../img/h+f/background-1.jpg);
+  background-image: url(../img/index/background-1.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -25,7 +25,7 @@
   padding-top: 150px;
 }
 .text h1 {
-  font-family: "Nunito", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-weight: 700;
   color: #ffffff;
   font-size: 70px;
@@ -55,7 +55,6 @@
 .contents .main-home {
   margin-top: 250px;
   width: 100%;
-  position: absolute;
   font-family: "Rubik", sans-serif;
 }
 
@@ -127,8 +126,6 @@
 }
 
 .contents-two .categories-item {
-  height: 350px;
-  width: 360px;
   display: inline-block;
   padding-top: 20px;
   border-radius: 5px;
