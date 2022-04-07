@@ -5,6 +5,11 @@
   color: white;
   font-family: "Rubik", sans-serif;
 }
+.btn-pages:hover{
+  background-color: #e64615 !important;
+  color: #fff !important;
+  transition: 0.3s;
+}
 .card-pages {
   transition: 0.3s linear;
 }
