@@ -1,21 +1,18 @@
-.card-text:hover{
-    color: #ff5421;
-    transition: 0.3s;
+.card-text:hover {
+  color: #ff5421;
+  transition: 0.3s;
 }
-.shop-item a:hover{
-    color: #ff5421;
+.shop-item a:hover {
+  color: #ff5421;
 }
-i{
-    right: 6px;
-    bottom: 150px;
-    transition: 0.4s;
-    opacity: 0;
+.fa-cart-plus {
+  right: 6px;
+  bottom: 150px;
+  transition: 0.4s;
+  opacity: 0;
 }
-.card-shop:hover .shop-item i{
-    opacity: 1;
-    visibility: visible !important;
-    bottom: 0px;
+.card-shop:hover .shop-item i {
+  opacity: 1;
+  visibility: visible !important;
+  bottom: 0px;
 }
-
-
-
