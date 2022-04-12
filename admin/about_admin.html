@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,8 +12,8 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!-- <link rel="stylesheet" href="./assets/css/style_admin.css"> -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/style_all(huy).css">
 </head>
-
 <body>
     <div class="row g-0 h-100">
         <div class="col-md-2 p-0 m-0">
@@ -59,69 +58,62 @@
 
 
         <div class="col-md-10 p-0 m-0">
-            <div class="p-0">
-                <div class="card bg-dark text-white ">
-                    <img src="../assets/img/about/beadcrum.jpg" class="img-fluid" alt="">
-                    <div class="card-img-overlay d-flex justify-content-center flex-column align-items-center">
-                        <h1 class="text-center card-title">Courses Management</h1>
+            <div class="card bg-dark text-white">
+                <img src="../assets/img/about/beadcrum.jpg" class="img-fluid" alt="">
+                <div class="card-img-overlay d-flex justify-content-center flex-column align-items-center">
+                    <h1 class="text-center card-title">Dashboard</h1>
+                </div>
+            </div>
+            <div class="row g-0 mt-4">
+                <div class="col-12 border p-0 m-0">
+                    <div class="row">
+                        <div class="col-md-4 d-flex justify-content-center">
+                            <i class="fa-solid fa-building-user fs-2 mt-3 me-3 main-color"></i>
+                            <div class="rubik-font">
+                                <h6>number of visitors</h4>
+                                    <h3>1,7M</h3>
+                            </div>
+                        </div>
+                        <div class="col-md-4 d-flex justify-content-center">
+                            <i class="fa-solid fa-graduation-cap fs-2 mt-3 me-3 main-color"></i>
+                            <div class="rubik-font">
+                                <h6>number of visitors</h4>
+                                    <h3>100 000</h3>
+                            </div>
+                        </div>
+                        <div class="col-md-4 d-flex justify-content-center">
+                            <i class="fa-solid fa-graduation-cap fs-2 mt-3 me-3 main-color"></i>
+                            <div class="rubik-font">
+                                <h6>monthly revenue</h4>
+                                <h3>1 000 000 USD</h3>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <form name="userForm" id="form-admin">
-                    <div class="form-group text-center">
-                        <input class="form-control" type="text" name="id" autocomplete="off" value="ID" disabled>
-
-                        <input class="form-control" type="text" name="name_1" placeholder="Tên khóa học"
-                            autocomplete="off">
-                        <input class="form-control" type="text" name="name_2" placeholder="Chuyên ngành"
-                            autocomplete="off">
-                        <input class="form-control" type="text" name="price" placeholder="Giá" autocomplete="off">
-                        <input class="form-control" type="text" name="user" placeholder="số lượng học viên"
-                            autocomplete="off">
-                    </div>
-                </form>
-                <div class="d-flex justify-content-center mt-3">
-                    <button type="submit" id="create" class="btn btn-success px-5" onclick="create_user()">Add</button>
-                    <button type="button" id="createForm" class="btn btn-success px-5" onclick="formInput()">Add</button>
-                    <button type="button" id="read" class="btn btn-info ms-5 px-5" onclick="read_data()">Read</button>
-                    <button id="update" class="btn btn-warning ms-5 px-5" onclick="update_user()"
-                        type="button">Update</button>
-                    <button id="delete" type="button" class="btn btn-danger ms-5 px-5"
-                        onclick="delete_all()">Delete</button>
+                <div>
+                    <h1 class="rubik-font text-center mt-4">Statistical chart</h1>
                 </div>
-
-                <table class="table border mt-4">
-                    <thead class="thead-dark">
-                        <tr>
-                            <th>#</th>
-                            <th>Tên khóa học</th>
-                            <th>Chuyên ngành</th>
-                            <th>Giá</th>
-                            <th>số lượng học viên</th>
-                            <th>Edit</th>
-                            <th>Delete</th>
-                        </tr>
-                    </thead>
-                    <tbody id="data" class="border">
-
-                    </tbody>
-                </table>
-
+                <div class="row g-0 d-flex justify-content-beetween justify-content-center mt-5 align-items-end">
+                    <div class="state background-color-main mx-3" style="height: 70px;">
+                        <p class="rubik-font text-center text-white">Web development</p>
+                    </div>
+                    <div class="state background-color-main mx-3" style="height: 100px;">
+                        <p class="rubik-font text-center text-white">Photography</p>
+                    </div>
+                    <div class="state background-color-main mx-3" style="height: 200px;">
+                        <p class="rubik-font text-center text-white">software engineer</p>
+                    </div>
+                    <div class="state background-color-main mx-3" style="height: 55px;">
+                        <p class="rubik-font text-center text-white">tester</p>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
         integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
         crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
         integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
         crossorigin="anonymous"></script>
-    <script src="./assets/js/init_course.js"></script>
-    <script src="./assets/js/script_admin.js"></script>
-
 </body>
-
 </html>

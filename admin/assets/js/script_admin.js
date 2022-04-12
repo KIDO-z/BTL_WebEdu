@@ -24,6 +24,7 @@ function edit_user(obj) {
 }
 
 function update_user() {
+    formInput()
     var id = userForm.id.value;
     var username_1 = userForm.name_1.value;
     var username_2 = userForm.name_2.value;
@@ -45,6 +46,14 @@ function delete_all(){
     tbody.innerHTML = null;
 }
 
+function formInput(){
+    var form = document.getElementById('form-admin')
+    form.style.display = 'block'
+    var button = document.getElementById('create')
+    button.style.display = 'block'
+    var button2 = document.getElementById('createForm')
+    button2.style.display = 'none'
+}
 
 function create_user() {
     event.preventDefault();

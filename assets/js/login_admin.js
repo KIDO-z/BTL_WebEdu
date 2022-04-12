@@ -39,12 +39,13 @@ function Login() {
             location.href = "student.html";
         }
     } else {
-        alert("username must contant '@' and '_'");
+        statusOfPassword.textContent = 'account or password error'
+        statusOfPassword.style.color = 'red'
     }
-
 }
-    
-    
+
+
+  
     
 //    event.preventDefault();
 //    var username = myForm.username.value;
