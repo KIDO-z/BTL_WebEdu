@@ -117,18 +117,24 @@
                     <form action="" class="rubik-font">
                         <input type="text" class="form-control mb-4 py-2 border-0" id="first-name"
                             placeholder="First Name" required>
+                        <span id="statusOfFirstname"></span>
                         <input type="text" class="form-control mb-4 py-2 border-0" id="last-name"
                             placeholder="Last Name" required>
+                        <span id="statusOfLastname"></span>
                         <input type="email" class="form-control mb-4 py-2 border-0" id="email"
                             placeholder="Email address" required>
+                        <span id="statusOfEmail"></span>
                         <input type="text" class="form-control mb-4 py-2 border-0" id="username" placeholder="Username"
                             required>
+                        <span id="statusOfUserID"></span>
                         <input type="password" class="form-control mb-4 py-2 border-0" id="pass" placeholder="Password"
                             required>
-                        <input type="password" class="form-control mb-4 py-2 border-0" id="pass"
+                        <span id="statusOfPassword"></span>
+                        <input type="password" class="form-control mb-4 py-2 border-0" id="pass1"
                             placeholder="Confirm Password" required>
+                        <span id="statusOfComfirmPass"></span>
                         <input type="submit" value="SIGN UP"
-                            class="w-100 background-color-main btn btn-register text-white">
+                            class="w-100 background-color-main btn btn-register text-white" id="btnRegister">
                     </form>
                     <p class="rubik-font mt-3">Already have an account?<a href="login.html" class="main-color"> Sign
                             In</a></p>
@@ -279,6 +285,7 @@
 
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="https://kit.fontawesome.com/d7b1ce3380.js" crossorigin="anonymous"></script>
+    <script src="assets/js/register.js"></script>
 </body>
 
 </html>
